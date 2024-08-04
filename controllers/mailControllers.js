@@ -48,6 +48,7 @@ class MailController {
             catch (e) {
                 return res.status(500).json({
                     error: "i am sorry, there is an error with server",
+                    e
                 });
             }
         });
