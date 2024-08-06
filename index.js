@@ -24,6 +24,7 @@ app.listen(process.env.PORT, () => {
         console.log("PORT:", process.env.PORT);
         console.log("MAIL SERVICE:", process.env.MAIL_SERVICE);
         console.log("MAIL USER:", process.env.MAIL_USER);
+        console.log("MAIL PASS:", process.env.MAIL_PASS);
         console.log("MAIL RECIPIENT:", process.env.MAIL_RECIPIENT);
         console.log("ELIMINAR AS INFORMAÇÕES APÓS OS TESTES E RESOLUÇÃO DAS PENDÊNCIAS");
         console.log({
