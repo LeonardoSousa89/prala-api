@@ -21,10 +21,10 @@ app.use("/", mailRoutes_1.mailRoute);
 app.listen(process.env.PORT, () => {
     try {
         console.log("ELIMINAR AS INFORMAÇÕES APÓS OS TESTES E RESOLUÇÃO DAS PENDÊNCIAS");
-        console.log(process.env.PORT);
-        console.log(process.env.MAIL_SERVICE);
-        console.log(process.env.MAIL_USER);
-        console.log(process.env.MAIL_RECIPIENT);
+        console.log("PORT:", process.env.PORT);
+        console.log("MAIL SERVICE:", process.env.MAIL_SERVICE);
+        console.log("MAIL USER:", process.env.MAIL_USER);
+        console.log("MAIL RECIPIENT:", process.env.MAIL_RECIPIENT);
         console.log("ELIMINAR AS INFORMAÇÕES APÓS OS TESTES E RESOLUÇÃO DAS PENDÊNCIAS");
         console.log({
             server_info: {
