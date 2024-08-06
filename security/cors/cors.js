@@ -8,6 +8,6 @@ const cors_1 = __importDefault(require("cors"));
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 const policy = (0, cors_1.default)({
-    origin: ["http://localhost:5500", "https://pralalogistica.com.br"],
+    origin: ["https://pralalogistica.com.br", "http://pralalogistica.com.br"],
 });
 exports.policy = policy;
